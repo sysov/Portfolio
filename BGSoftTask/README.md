@@ -12,3 +12,4 @@ user_name
 - Anchor
 
 
+![Simulator Screen Recording - iPhone 11 - 2022-02-17 at 17 06 12](https://user-images.githubusercontent.com/34867924/154499434-0b25823b-6f34-4362-8452-053aada565b8.gif)
