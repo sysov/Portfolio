@@ -119,11 +119,17 @@ final class PhotoViewCell: UICollectionViewCell{
         addSubview(authorLabel)
         addSubview(userButton)
         addSubview(photoButton)
+        layer.cornerRadius = 26
+        clipsToBounds = true
     }
     
     private func setUpImageView() {
         imageView = UIImageView(frame: self.bounds)
         imageView.contentMode = .scaleAspectFill
+        imageView.layer.shadowColor = UIColor.black.cgColor
+        imageView.layer.shadowOffset  = CGSize(width: 10, height: 10)
+        imageView.layer.shadowRadius  = 10
+        imageView.layer.shadowOpacity = 0.4
     }
     
     override func layoutSubviews() {

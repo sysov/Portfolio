@@ -18,9 +18,9 @@ final class GalleryCollectionView: UICollectionView {
     private func setupLayout() {
         let width = self.bounds.width
         let height = self.bounds.height
-        let sideInset: CGFloat = 25
+        let sideInset: CGFloat = 20
         let cellWidth = width - (sideInset * 2)
-        let cellHeight = height
+        let cellHeight = height - (sideInset * 6)
         layout.itemSize = CGSize(width: cellWidth, height: cellHeight)
         layout.scrollDirection = .horizontal
         layout.minimumLineSpacing = sideInset * 2
