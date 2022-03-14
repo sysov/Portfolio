@@ -12,7 +12,6 @@
 		E93CF76427DB60270081AC9F /* PersistenceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93CF76327DB60270081AC9F /* PersistenceProtocol.swift */; };
 		E93CF76627DB60410081AC9F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93CF76527DB60410081AC9F /* UserDefaultsManager.swift */; };
 		E93CF76827DB606F0081AC9F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93CF76727DB606F0081AC9F /* CoreDataManager.swift */; };
-		E93CF7B027DC740F0081AC9F /* FavoritesSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93CF7AF27DC740F0081AC9F /* FavoritesSwiftUIView.swift */; };
 		E944233C27C5604600B43092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E944233B27C5604600B43092 /* AppDelegate.swift */; };
 		E944233E27C5604600B43092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E944233D27C5604600B43092 /* SceneDelegate.swift */; };
 		E944234027C5604600B43092 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E944233F27C5604600B43092 /* NewsViewController.swift */; };
@@ -32,7 +31,6 @@
 		E93CF76327DB60270081AC9F /* PersistenceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceProtocol.swift; sourceTree = "<group>"; };
 		E93CF76527DB60410081AC9F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		E93CF76727DB606F0081AC9F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		E93CF7AF27DC740F0081AC9F /* FavoritesSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSwiftUIView.swift; sourceTree = "<group>"; };
 		E944233827C5604600B43092 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E944233B27C5604600B43092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E944233D27C5604600B43092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				E944233B27C5604600B43092 /* AppDelegate.swift */,
-				E93CF7AF27DC740F0081AC9F /* FavoritesSwiftUIView.swift */,
 				E944233D27C5604600B43092 /* SceneDelegate.swift */,
 				E944234127C5604600B43092 /* Main.storyboard */,
 				E93CF7AC27DBA7820081AC9F /* Controller */,
@@ -259,7 +256,6 @@
 			files = (
 				E944234027C5604600B43092 /* NewsViewController.swift in Sources */,
 				E9A3E3E027CE713D0041146E /* NewsTableViewCell.swift in Sources */,
-				E93CF7B027DC740F0081AC9F /* FavoritesSwiftUIView.swift in Sources */,
 				E93CF76427DB60270081AC9F /* PersistenceProtocol.swift in Sources */,
 				E93CF76227DB5D680081AC9F /* FavoritesViewController.swift in Sources */,
 				E944233C27C5604600B43092 /* AppDelegate.swift in Sources */,
